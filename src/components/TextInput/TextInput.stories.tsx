@@ -18,15 +18,15 @@ export default {
     children: {
       table: {
         disable: true,
-      },
+      }
     },
-  },
-} as Meta<TextInputRootProps>;
+  }
+} as Meta<TextInputRootProps>
 
 export const Default: StoryObj<TextInputRootProps> = {};
 
 export const WithouIcon: StoryObj<TextInputRootProps> = {
   args: {
-    children: <TextInput.Input placeholder="Digite seu e-mail" />,
-  },
-};
+    children: <TextInput.Input placeholder="Digite seu e-mail" />
+  }
+}

@@ -16,37 +16,39 @@ export default {
       },
     },
   },
-} as Meta<TextProps>;
+} as Meta<TextProps>
 
-export const Default: StoryObj<TextProps> = {};
+export const Default: StoryObj<TextProps> = {}
 
 export const Small: StoryObj<TextProps> = {
   args: {
-    size: 'sm',
-  },
-};
+    size: 'sm'
+  }
+}
 
 export const Large: StoryObj<TextProps> = {
   args: {
-    size: 'lg',
-  },
-};
+    size: 'lg'
+  }
+}
 
 export const CustomComponent: StoryObj<TextProps> = {
   args: {
     asChild: true,
-    children: <p>Teste</p>,
+    children: (
+      <p>Teste</p>
+    )
   },
   argTypes: {
     children: {
       table: {
         disable: true,
-      },
+      }
     },
     asChild: {
       table: {
         disable: true,
-      },
-    },
-  },
-};
+      }
+    }
+  }
+}

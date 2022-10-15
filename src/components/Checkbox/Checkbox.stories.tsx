@@ -14,9 +14,9 @@ export default {
           {Story()}
           <Text size="sm">Lembrar por 30 dias</Text>
         </div>
-      );
-    },
+      )
+    }
   ],
-} as Meta<CheckboxProps>;
+} as Meta<CheckboxProps>
 
-export const Default: StoryObj<CheckboxProps> = {};
+export const Default: StoryObj<CheckboxProps> = {}
